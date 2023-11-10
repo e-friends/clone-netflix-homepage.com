@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+.left{
+    width: 70px;
+    height: 100vh;
+    background: #0c0c0c;
+    color: white;
+    padding-top: 150px;
+
+}
+.left nav li{
+    list-style: none;
+    padding: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    margin-top: 1px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.left nav li.active{
+    border-left: 3px solid rgb(199, 0, 0);
+}
+.left nav li i{
+    font-size: 20px;
+    color: rgb(212, 212, 212);
+}
+.rgith{
+    width: 1300px;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.rgith .movie-header{
+    width: 100%;
+    height: 65vh;
+    background-image: url('banner.jpg'); 
+    
+}
+.rgith .movie-header .bg-gradent{
+    width: 100%;
+    height: 100%;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 25px;
+    background-image: linear-gradient(to right,black 25% , transparent);
+}
+.rgith .movie-header .logo{
+    color: white;
+    display: flex;;
+    align-items: center;
+    justify-content: bottom;
+    margin-bottom: 5px;
+}
+.rgith .movie-header .logo span{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+.rgith .movie-header .movie-header-title{
+    letter-spacing: 8px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    margin-left: 5px;
+    color: rgb(218, 217, 217);
+    margin-bottom: 15px;
+}
+.rgith .movie-header .movie-header-title i{
+    margin-left: 10px;
+    color: rgb(199, 31, 31);
+}
+.rgith .movie-header .date-seassons{
+    margin-left: 6px;
+    font-family: 'Poppins', sans-serif;
+    color: #e6e5e5;
+    margin-bottom: 10px;
+    
+}
+.rgith .movie-header .date-seassons .rate{
+    color: rgb(21, 206, 21);
+    margin-right: 3px;
+
+}
+.rgith .movie-header .date-seassons .tv-ma{
+    background: #333232;
+    padding: 2px 7px;
+    border-radius: 2px;
+    font-size: 13px;
+    margin-right: 9px;
+    margin-left: 9px;
+}
+.rgith .movie-header .date-seassons .type{
+    border: 2px solid #333232; 
+    padding: 1.5px 5px;
+    border-radius: 3px;
+    font-size: 13px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.rgith .movie-header .movie-discription{
+    width: 430px;
+    margin-left: 6px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;;
+    color: #929292;
+}
+.rgith .movie-header .coming-soon{
+    font-size: 19px;
+    margin-bottom: 5px;
+    margin-left: 6px;
+    color: #f0f0f0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.rgith .recent-movie .coming-soon{
+    color: white;
+    margin-bottom: 5px;
+}
+.rgith .recent-movie{
+    margin-top: -95px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 25px;
+    /* background: green; */
+}
+/* .rgith .recent-movie .recent-movie-lists .coming-soon-movies.active{
+    
+} */
+.rgith .recent-movie .recent-movie-lists{
+    display: flex;
+    overflow-y: hidden;
+}
+.rgith .recent-movie .recent-movie-lists .coming-soon-movies{
+    margin-right: 4.5px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 2px;
+    cursor: pointer;
+    /* border: 1px solid rgb(19, 18, 18);
+    background: rgb(19, 18, 18); */
+    color: rgb(167, 165, 165);
+    transition: .1s;
+}
+.rgith .recent-movie .recent-movie-lists .coming-soon-movies.active{
+    background: white;
+    color: black;
+    font-weight: bold;
+} 
+.rgith .recent-movie .recent-movie-lists .coming-soon-movies:hover{
+    background: rgba(255, 248, 248, 0.034);
+    opacity: .9;
+    color: rgb(167, 165, 165);
+    /* letter-spacing: 1px; */
+} 
+.rgith .recent-movie .recent-movie-lists .coming-soon-movies p{
+    
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 2px;
+}
+.rgith .recent-movie .recent-movie-lists .coming-soon-movies img{
+    width: 240.5px;
+    margin-bottom: 1px;
+    border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
